@@ -4,7 +4,7 @@ function Quadratic(x,A,b)
 end
 
 
- function GenAlg(x₀,A,b,α,a ;ϵ=1e-6, max_itr=1000 )
+ function GenAlg(x₀,A,b,α,a ;ϵ=1e-6, max_itr=999 )
     xₖ=x₀
     gₐ=A*a
     qa_α = Quadratic(a,A,b)-α
